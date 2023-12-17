@@ -90,6 +90,15 @@
 												<script>
 													var myButton = document.getElementById('results');
 													var usnInput = document.getElementById('usn');
+
+													if (usnInput) {
+  // Convert the value to lowercase
+														  var lowercaseValue = usnInput.value.toLowerCase();
+														
+														  // Update the input value with the lowercase version
+														  usnInput.value = lowercaseValue;
+														}
+
 													
 
 											
